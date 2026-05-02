@@ -12,13 +12,13 @@ SERIAL_PORT = "COM4"
 BAUD_RATE = 115200
 
 # Idle prompt while waiting for an NFC tap
-TAP_NFC_AUDIO_PATH = r"C:/Users/astro/Downloads/tappnfc.mp3"
+TAP_NFC_AUDIO_PATH = r"audio/tappnfc.mp3"
 
 # Played once when charging starts
-CHARGING_START_AUDIO_PATH = r"C:/Users/astro/Downloads/chargingstart.mp3"
+CHARGING_START_AUDIO_PATH = r"audio/chargingstart.mp3"
 
 # Played once when charging stops
-CHARGING_STOP_AUDIO_PATH = r"C:/Users/astro/Downloads/chargingstops.mp3"
+CHARGING_STOP_AUDIO_PATH = r"audio/chargingstops.mp3"
 
 def choose_serial_port(configured_port: str) -> str:
     ports = [p.device for p in list_ports.comports()]
