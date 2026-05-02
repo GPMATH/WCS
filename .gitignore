@@ -10,6 +10,9 @@ __pycache__/
 dist/
 build/
 
+# Verification outputs
+verification/
+
 # OS
 Thumbs.db
 .DS_Store
